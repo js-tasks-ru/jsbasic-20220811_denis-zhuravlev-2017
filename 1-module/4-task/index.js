@@ -3,6 +3,6 @@ function checkSpam(str) {
     if (newStr.includes("xxx") || newStr.includes("1xbet")){
         return true
     } else {
-        return false
+    return false
     }
 }
