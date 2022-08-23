@@ -1,7 +1,7 @@
 let calculator = {
-  read() {
-    this.a = +prompt(`Введите А`);
-    this.b = +prompt(`Введите B`);
+  read(a, b) {
+    this.a = a;
+    this.b = b;
   },
   sum() {
     return this.a + this.b
@@ -10,9 +10,7 @@ let calculator = {
     return this.a * this.b
   }
 };
-calculator.read(3, 5);
-console.log(calculator.sum()); // 8
-console.log(calculator.mul()); // 15
+
 
 
 
