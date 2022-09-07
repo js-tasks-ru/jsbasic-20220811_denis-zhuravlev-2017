@@ -1,5 +1,5 @@
 function filterRange(arr, a, b) {
-  let newArr = arr.slice(a, b);
-  return newArr
+  return arr.filter((num) => {
+    return a <= num && num <= b;
+  });
 }
-// не очень понял условие задания, возвращает массив цифр между а и б.
